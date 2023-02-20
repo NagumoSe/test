@@ -70,7 +70,7 @@ export default function Home() {
         <h2>外部リンク</h2>
         <div>
           {externalWebsites.map((website) => (
-            <ExternalSiteCard
+            <ExternalSiteCard key={website.name}
             siteName={website.name}
             siteUrl={website.url}
             siteIcon={website.logo}
