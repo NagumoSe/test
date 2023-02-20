@@ -38,8 +38,8 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
            <div>
-            <div>南雲 誠志（Nagumo,Seiji）</div>
-            <div>2000年生まれ</div>
+            <div>南雲 誠志（Nagumo Seiji）</div>
+            <div>2000年03月13日生まれ</div>
             <div>東京都出身</div>
             <div>長岡技術科学大学 情報・経営システム工学分野</div>
             <div>
