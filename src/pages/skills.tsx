@@ -34,7 +34,8 @@ export default function skills() {
           <li>Next.js</li>
           <li>Node.js</li> */}
           {skills.map((skill) => (
-            <li>{skill}</li>
+            
+            <li key={skill}>{skill}</li>
           ))}
         </ul>
       </main>
